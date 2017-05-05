@@ -20,7 +20,16 @@ if (conf.getBoolean(PigConfiguration.PIG_PRINT_EXEC_PLAN, false)) { log.info(tez
 ```
 - Check for compiling ```ant```
 - Start remote debugger in Eclipse
-'''export PIG_OPTS="- agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=8000" '''
+```
+export PIG_OPTS="- agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=8000" 
+```
+- Or start to run pig only in terminal 
+```
+unset PIG_OPTS
+```
+- Test for MR engine `-x local test.pig`; Test for Tez engine `-x tez_local test.pig`
+- 
+
 
 
 
