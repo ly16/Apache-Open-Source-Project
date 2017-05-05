@@ -28,7 +28,13 @@ export PIG_OPTS="- agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=
 unset PIG_OPTS
 ```
 - Test for MR engine `-x local test.pig`; Test for Tez engine `-x tez_local test.pig`
-- 
+- MapReduce plan printed as expected for MR/Tez engine
+![mr](https://github.com/ly16/Apache-Open-Source-Project/blob/master/MR-plan.png)
+![tez](https://github.com/ly16/Apache-Open-Source-Project/blob/master/Tez-plan.png)
+
+- Upload Patch to Jira 
+
+
 
 
 
