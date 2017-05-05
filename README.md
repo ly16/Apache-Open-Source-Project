@@ -18,6 +18,10 @@ if (conf.getBoolean(PigConfiguration.PIG_PRINT_EXEC_PLAN, false)) {  log.info(mr
 // Set pig.print.exec.plan "true" in Tez engine
 if (conf.getBoolean(PigConfiguration.PIG_PRINT_EXEC_PLAN, false)) { log.info(tezPlanNode.getTezOperPlan()); }
 ```
-- Check for compiling ''ant''
+- Check for compiling ```ant```
+- Start remote debugger in Eclipse
+'''export PIG_OPTS="- agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=8000" '''
+
+
 
 
