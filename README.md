@@ -8,6 +8,7 @@ For pig script, users need to use pig -e ```explain -script test.pig```to print 
 
 ### Steps to creat a Jira issue and upload the patch
 - Get clone of 0.17.0 version PIG by git pull 
+- Set up Eclipse ```ant build.xml```
 
 
 
