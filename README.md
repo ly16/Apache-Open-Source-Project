@@ -1,6 +1,6 @@
 ## Apache-Open-Source-Project
 
-### Option to print MR/Tez plan before launching[PIG-5210]
+### Option to print MR/Tez plan before launching [PIG-5210]
 An Improvement for Apache Open Source Software Pig
 
 ### Why do we add this patch?
