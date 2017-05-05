@@ -35,6 +35,7 @@ unset PIG_OPTS
 
 - Upload Patch to Jira 
 
+![screenshot](https://github.com/ly16/Apache-Open-Source-Project/blob/master/jira%20shot.png)
 
 
 
